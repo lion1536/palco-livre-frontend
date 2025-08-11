@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+#cabecalho {
+  background-color: hsl(231, 66%, 30%);
+}
+body {
+  margin: 0px;
+  background-color: hsl(0, 0%, 84%);
+  height: 100vh;
+}
+#svgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1.5rem;
+  padding-block: 0.75rem;
+}
+img.svg-white {
+  filter: brightness(0) invert(1);
+}
+#dpscabe {
+  font-family: Lato, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  padding-inline: 4rem;
+  font-size: 1.2rem;
+  background-color: hsl(231, 100%, 40%);
+  color: white;
+}
+p {
+  margin: 0px;
+}
+#destaque {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
